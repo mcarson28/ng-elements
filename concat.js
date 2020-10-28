@@ -4,7 +4,7 @@ const concat = require('concat');
 
 (async function () {
   const files = [
-    './dist/ng-elements/runtime.js',"build:elements": "ng build --prod --output-hashing none && node concat.js",
+    './dist/ng-elements/runtime.js',
     './dist/ng-elements/polyfills.js',
     './dist/ng-elements/main.js',
   ]

@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Angular Elements Demo</title>
+    <script src="http://127.0.0.1:8080/elements/elements.js"></script>
+  </head>
+  <body>
+    <ngair-button button-label="Click Me!"></ngair-button>
+
+    <script>
+      const component = document.querySelector('ngair-button');
+      component.addEventListener('customEvent', (event) => {
+        alert(event.detail);
+      })
+    </script>
+  </body>
+</html>
+
